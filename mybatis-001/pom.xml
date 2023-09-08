@@ -15,7 +15,30 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>cpdetector</groupId>
+            <artifactId>cpdetector</artifactId>
+            <version>1.0.7</version>
+        </dependency>
 
+        <!-- cpdetector 检测文件编码格式 -->
+
+
+        <!-- cpdetector 的插件 chardet -->
+        <dependency>
+            <groupId>chardet</groupId>
+            <artifactId>chardet</artifactId>
+            <version>2.7.4</version>
+        </dependency>
+
+        <!-- cpdetector 的插件 antlr -->
+        <dependency>
+            <groupId>antlr</groupId>
+            <artifactId>antlr</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
     <build>
         <resources>
             <resource>

@@ -25,6 +25,7 @@ public class UserTest {
             System.out.println(user.toString());
         }
         sqlSession.close();
+        System.out.println("23");
     }
     @Test
     public void test2(){
